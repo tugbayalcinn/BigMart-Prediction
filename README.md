@@ -1,35 +1,22 @@
-# BigMart Sales Prediction
-
-This project uses machine learning to predict the sales of various items in different BigMart outlets.
-
-## Dataset
-
-The dataset contains detailed information about products and outlets, including:
-
-- Item type
-- Item MRP (Maximum Retail Price)
-- Outlet size and type
-- Item fat content
-- And more...
-
 ## Models Used
 
 Two machine learning models were trained and evaluated:
 
-- **Linear Regression**
+- **Linear Regression**  
 - **Random Forest Regressor** (final model used for submission)
 
 The Random Forest model showed better performance and was used to generate the final predictions.
 
-## Files
+---
 
-- `submission.csv` – Contains the predicted sales for the test set using the Random Forest model.
-- `BigMartSalesData.ipynb` – Jupyter Notebook with full code, including data preprocessing, model training, and evaluation.
+## Model Performance
 
-## How to Run
-
-You can run the notebook using **Jupyter Notebook** or **Google Colab**. Make sure the dataset files (`Train.csv`, `Test.csv`) are placed in the same directory.
+The final model (**Random Forest Regressor**) achieved a **Root Mean Squared Error (RMSE)** of approximately **1075**,  
+corresponding to a **~49% error** relative to the average sales.  
+While this indicates room for improvement, it also shows the model captures some meaningful patterns in the data.
 
 ---
+
+## Files
 
 
