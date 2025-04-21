@@ -4,8 +4,11 @@ This project aims to predict sales for BigMart stores using historical sales dat
 
 🔍 Project Overview
 Exploratory Data Analysis (EDA)
+
 Handling missing values
+
 Feature engineering
+
 Encoded categorical variables using Label Encoding
 Built a regression model using XGBoost
 Tuned hyperparameters using GridSearchCV
